@@ -1,0 +1,64 @@
+using System;
+
+namespace Operators_Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Arithmetic operators
+            int a = 10, b = 5;
+            int sum = a + b;
+            int difference = a - b;
+            int product = a * b;
+            int quotient = a / b;
+            int remainder = a % b;
+
+            // Unary operators
+            int x = 10;
+            x++; // Increment
+            x--; // Decrement
+            int negativeX = -x;
+
+            // Logical operators
+            bool p = true, q = false;
+            bool andResult = p && q;
+            bool orResult = p || q;
+            bool notResult = !p;
+
+            // Bitwise operators
+            int num1 = 5, num2 = 3;
+            int andBitwise = num1 & num2;
+            int orBitwise = num1 | num2;
+            int xorBitwise = num1 ^ num2;
+
+            // Assignment operators
+            int y = 10;
+            y += 5; // y = y + 5;
+            y -= 3; // y = y - 3;
+
+            // Conditional operator (ternary operator)
+            int age = 20;
+            string status = (age >= 18) ? "Adult" : "Minor";
+
+            // Display results
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Difference: " + difference);
+            Console.WriteLine("Product: " + product);
+            Console.WriteLine("Quotient: " + quotient);
+            Console.WriteLine("Remainder: " + remainder);
+            Console.WriteLine("Incremented x: " + x);
+            Console.WriteLine("Negative x: " + negativeX);
+            Console.WriteLine("AND result: " + andResult);
+            Console.WriteLine("OR result: " + orResult);
+            Console.WriteLine("NOT result: " + notResult);
+            Console.WriteLine("AND bitwise: " + andBitwise);
+            Console.WriteLine("OR bitwise: " + orBitwise);
+            Console.WriteLine("XOR bitwise: " + xorBitwise);
+            Console.WriteLine("y after +=: " + y);
+            Console.WriteLine("Status: " + status);
+
+            Console.ReadKey();
+        }
+    }
+}
