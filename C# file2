@@ -1,0 +1,44 @@
+using System;
+
+namespace Data_Types_Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Integral types
+            int age = 30;
+            long population = 7000000000;
+            short height = 180;
+            byte score = 150;
+
+            // Floating point types
+            float price = 99.99f;
+            double pi = 3.14159;
+            decimal tax = 12.50m;
+
+            // Boolean type
+            bool isAdult = true;
+
+            // Character type
+            char initial = 'J';
+
+            // String type
+            string name = "John Doe";
+
+            // Display values
+            Console.WriteLine("Age: " + age);
+            Console.WriteLine("Population: " + population);
+            Console.WriteLine("Height: " + height);
+            Console.WriteLine("Score: " + score);
+            Console.WriteLine("Price: " + price);
+            Console.WriteLine("Pi: " + pi);
+            Console.WriteLine("Tax: " + tax);
+            Console.WriteLine("Is Adult? " + isAdult);
+            Console.WriteLine("Initial: " + initial);
+            Console.WriteLine("Name: " + name);
+
+            Console.ReadKey();
+        }
+    }
+}
