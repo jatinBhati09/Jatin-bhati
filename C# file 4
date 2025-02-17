@@ -1,0 +1,32 @@
+using System;
+
+namespace Library_Functions_Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Math functions
+            double squareRoot = Math.Sqrt(25);
+            double power = Math.Pow(2, 3);
+
+            // String functions
+            string message = "Hello, C#!";
+            string upperCase = message.ToUpper();
+            int length = message.Length;
+
+            // DateTime functions
+            DateTime now = DateTime.Now;
+            string currentDate = now.ToShortDateString();
+
+            // Display results
+            Console.WriteLine("Square root: " + squareRoot);
+            Console.WriteLine("Power: " + power);
+            Console.WriteLine("Uppercase: " + upperCase);
+            Console.WriteLine("Length: " + length);
+            Console.WriteLine("Current date: " + currentDate);
+
+            Console.ReadKey();
+        }
+    }
+}
